@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body id="CreateAcc" style="background-color:lightgray">
+    <h1><i>Welcome To Dsg </i></h1>
+    <div>
+        <div style="border: 3px solid black; border-radius: 5px;width: 300px;height: 220px; position: absolute; top: 230px; left: 500px; text-align: center; padding: 5px;">
+            <p style="margin-top:5px;">
+                First Name: <input type="text" data-bind="value:Firstname" required>
+            </p>
+            <p>
+                Last Name: <input type="text" data-bind="value:Lastname" required>
+            </p>
+            <p>
+                Username: <input type="text" data-bind="value:Username" required>
+            </p>
+            <p>
+                Password: <input type="password" id="Password" data-bind="value:Password" required>
+            </p>
+            <p>
+                <input type="checkbox" data-bind="checked:IsChecked, event:{change: function() { Checked() }  }">Show Password
+            </p>
+            <div>
+                <button data-bind="event: {click: function() { CreateAcc() } }">Create Account</button>
+            </div>
+        </div>
+    </div>
+    <script src="_assets/Jquery 3.6.0.js"></script>
+    <script src="_assets/Jquery-ui.js"></script>
+    <script src="_assets/Knockout.js"></script>
+    <script src="ClientVm/NewUser.js"></script>
+</body>
+</html>

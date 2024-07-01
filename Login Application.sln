@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login Application", "Login Application\Login Application.csproj", "{2D2622B1-E295-4BA8-99C0-624C546E3D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApplication.Logic", "LoginApplication.Logic\LoginApplication.Logic.csproj", "{1DCB528F-5511-4CAE-AC42-219A2AD8552C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D2622B1-E295-4BA8-99C0-624C546E3D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2622B1-E295-4BA8-99C0-624C546E3D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2622B1-E295-4BA8-99C0-624C546E3D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2622B1-E295-4BA8-99C0-624C546E3D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCB528F-5511-4CAE-AC42-219A2AD8552C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCB528F-5511-4CAE-AC42-219A2AD8552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCB528F-5511-4CAE-AC42-219A2AD8552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCB528F-5511-4CAE-AC42-219A2AD8552C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A32708-FAF6-4F85-9389-3C3B99E4D184}
+	EndGlobalSection
+EndGlobal
